@@ -37,7 +37,7 @@
 ## Part 3: Cloud Deployment
 
 ### Exercise 3.1: Railway deployment
-- URL: https://production-agent-day12.railway.app
+- URL: https://d4ng4nh.railway.app
 - Screenshot: [Screenshot recorded and available in `screenshots/railway_deploy.png`] (Mock)
 
 ## Part 4: API Security

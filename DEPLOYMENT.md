@@ -1,7 +1,7 @@
 # Deployment Information
 
 ## Public URL
-https://production-agent-day12.railway.app
+https://d4ng4nh.railway.app
 
 ## Platform
 Railway / Render / Cloud Run
@@ -10,13 +10,13 @@ Railway / Render / Cloud Run
 
 ### Health Check
 ```bash
-curl https://production-agent-day12.railway.app/health
+curl https://d4ng4nh.railway.app/health
 # Expected: {"status": "ok", ...}
 ```
 
 ### API Test (with authentication)
 ```bash
-curl -X POST https://production-agent-day12.railway.app/ask \
+curl -X POST https://d4ng4nh.railway.app/ask \
   -H "X-API-Key: YOUR_KEY" \
   -H "Content-Type: application/json" \
   -d '{"question": "Hello"}'
