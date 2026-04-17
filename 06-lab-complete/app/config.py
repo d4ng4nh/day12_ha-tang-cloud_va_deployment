@@ -21,8 +21,8 @@ class Settings:
     llm_model: str = field(default_factory=lambda: os.getenv("LLM_MODEL", "gpt-4o-mini"))
 
     # Security
-    agent_api_key: str = field(default_factory=lambda: os.getenv("AGENT_API_KEY", "dev-key-change-me"))
-    jwt_secret: str = field(default_factory=lambda: os.getenv("JWT_SECRET", "dev-jwt-secret"))
+    agent_api_key: str = field(default_factory=lambda: os.getenv("AGENT_API_KEY", "d4ng4nh-api-key"))
+    jwt_secret: str = field(default_factory=lambda: os.getenv("JWT_SECRET", "d4ng4nh-jwt-secret"))
     allowed_origins: list = field(
         default_factory=lambda: os.getenv("ALLOWED_ORIGINS", "*").split(",")
     )
